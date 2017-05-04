@@ -1,0 +1,11 @@
+out
+server
+node_modules
+*.vsix
+.DS_Store
+.vscode-test
+undefined
+target
+logs
+*.log
+npm-debug.log*

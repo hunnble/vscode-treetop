@@ -1,0 +1,26 @@
+{
+    "name": "treetop",
+    "displayName": "vscode-treetop",
+    "description": "Treetop language support for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "hunnble",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "treetop",
+            "aliases": ["treetop", "treetop"],
+            "extensions": [".treetop"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "treetop",
+            "scopeName": "source.treetop",
+            "path": "./syntaxes/treetop.tmLanguage"
+        }]
+    }
+}
